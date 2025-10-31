@@ -1,0 +1,81 @@
+.blog-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grey-950);
+  border-radius: 20px;
+  padding: 24px;
+  max-width: 384px; 
+  box-shadow: 8px 8px 0px 0px var(--color-grey-950);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.blog-card:hover {
+  box-shadow: 16px 16px 0px 0px var(--color-grey-950);
+}
+
+.card-image-container {
+  border-radius: 10px;
+  overflow: hidden; 
+  margin-bottom: 24px;
+}
+
+.card-image {
+  width: 100%;
+  display: block; 
+}
+
+.card-category {
+  background-color: var(--color-yellow);
+  color: var(--color-grey-950);
+  font-weight: var(--font-weight-bold);
+  font-size: 0.875rem; 
+  padding: 4px 12px;
+  border-radius: 4px;
+  display: inline-block; 
+  margin-bottom: 12px;
+}
+
+.card-date {
+  font-size: 0.875rem; 
+  color: var(--color-grey-950); 
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 12px;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: var(--color-grey-950);
+  transition: color 0.2s ease-in-out;
+}
+
+.card-title a:hover,
+.card-title a:focus {
+  color: var(--color-yellow);
+}
+
+.card-description {
+  color: var(--color-grey-500); 
+  line-height: 1.5; 
+  margin-bottom: 24px;
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.author-name {
+  font-weight: var(--font-weight-bold);
+  font-size: 0.875rem; 
+}
