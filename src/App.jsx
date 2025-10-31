@@ -4,12 +4,12 @@ import BlogCard from './components/BlogCard';
 function App() {
   
   const cardData = {
-    image: "/assets/Blog_Image.png",
+    image: "assets/Blog_Image.png",
     category: "Навчання",
     date: "31 жовтня 2025",
     title: "HTML, CSS та React",
     description: "Використовуючи отриманні знання з HTML, CSS, JavaScript та React, реалізувати картку блогу за наданим дизайном.",
-    authorImage: "/assets/avatar_male.png",
+    authorImage: "assets/avatar_male.png",
     authorName: "Іван Жуков"
   };
 
